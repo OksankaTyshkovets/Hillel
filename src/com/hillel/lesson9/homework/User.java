@@ -22,7 +22,7 @@ public class User {
         this.country = country;
     }
 
-    public static final void read() throws IOException{
+    public final void read() throws IOException{
         FileReader fileReader = new FileReader("Lesson9.txt");
         Scanner scanner = new Scanner(fileReader);
 
@@ -36,7 +36,7 @@ public class User {
         fileReader.close();
     }
 
-    public static void write() throws IOException {
+    public void write() throws IOException {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
         FileWriter fileWriter = new FileWriter("Lesson9.txt");
@@ -45,6 +45,7 @@ public class User {
         scanner.close();
         fileWriter.close();
     }
+
 
     public String getName() {
         return name;

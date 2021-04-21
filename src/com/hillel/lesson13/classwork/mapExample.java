@@ -69,7 +69,7 @@ public class mapExample {
             System.out.println("foreach loop key is ".concat(key));
         }
 
-        for (String value : myHashMap.values()){
+        for (String value : myHashMap.values()) {
             System.out.println("foreach loop value is ".concat(value));
         }
     }
