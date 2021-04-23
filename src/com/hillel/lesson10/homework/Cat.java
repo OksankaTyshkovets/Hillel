@@ -5,7 +5,7 @@ public final class Cat extends Mammal {
     private int catAge;
 
     public void play(){
-        System.out.println("I'm playing blyat, meow. Don't touch me, little bitch");
+        System.out.println("I'm playing, meow. Don't touch me");
     }
 
 

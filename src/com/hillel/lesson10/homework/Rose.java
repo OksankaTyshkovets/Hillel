@@ -6,7 +6,7 @@ public final class Rose extends Flower {
 
 
     public void riseUpPrise(){
-        System.out.println("Take my money, I want this fucking shit");
+        System.out.println("Give all of your money and I will be yours");
     }
 
     public Rose(String roseType, String roseColour) {

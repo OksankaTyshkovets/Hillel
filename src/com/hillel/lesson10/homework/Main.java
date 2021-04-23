@@ -17,6 +17,8 @@ public class Main {
         PlantsActivity plantsActivity;
         PlantsInteract plantsInteract;
 
+        System.out.println(cat);
+
         cat.born();
         cat.eat();
         cat.play();
@@ -26,6 +28,8 @@ public class Main {
         cat.crouch();
         cat.sleep();
         cat.die();
+
+        System.out.println(dog);
 
         dog.born();
         dog.eat();
@@ -37,6 +41,8 @@ public class Main {
         dog.sleep();
         dog.die();
 
+        System.out.println(monkey);
+
         monkey.born();
         monkey.eat();
         monkey.steelMoney();
@@ -47,6 +53,8 @@ public class Main {
         monkey.sleep();
         monkey.die();
 
+        System.out.println(rose);
+
         rose.plant();
         rose.grow();
         rose.getPhotosynthesis();
@@ -55,6 +63,8 @@ public class Main {
         rose.riseUpPrise();
         rose.wither();
 
+        System.out.println(orchid);
+
         orchid.plant();
         orchid.grow();
         orchid.getPhotosynthesis();
@@ -62,6 +72,8 @@ public class Main {
         orchid.water();
         orchid.drinkWater();
         orchid.wither();
+
+        System.out.println(tulip);
 
         tulip.plant();
         tulip.grow();

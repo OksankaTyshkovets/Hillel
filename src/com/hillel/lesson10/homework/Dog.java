@@ -5,7 +5,7 @@ public final class Dog extends Mammal {
     private int dogAge;
 
     public void bite(){
-        System.out.println("Gav gav, I will bite you, pidor");
+        System.out.println("Gav gav, I will bite you");
     }
 
     public Dog(String dogName, int dogAge) {
@@ -31,7 +31,7 @@ public final class Dog extends Mammal {
 
     @Override
     public void move() {
-        System.out.println("run mathafacka");
+        System.out.println("run");
     }
 
     @Override

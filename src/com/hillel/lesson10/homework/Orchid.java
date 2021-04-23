@@ -5,7 +5,7 @@ public final class Orchid extends Flower {
     private String orchidColour;
 
     public void drinkWater(){
-        System.out.println("Give me some water, I want to get fucking drunk");
+        System.out.println("Give me some water, I want to get drunk");
     }
 
     public Orchid(String orchidType, String orchidColour) {
