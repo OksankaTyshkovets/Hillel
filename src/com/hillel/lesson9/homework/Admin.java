@@ -8,7 +8,7 @@ public final class Admin extends User {
     }
 
     public void removeFile(boolean isContain){
-        if(isContain = true){
+        if(isContain){
             File file = new File("Lesson9.txt");
             file.delete();
         }

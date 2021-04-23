@@ -4,6 +4,7 @@ import java.io.IOException;
 
 
 public class Main  {
+    static boolean isContain;
     public static void main(String[] args) throws IOException {
         User user = new User("Oksana", "Tyshkovets", "oksanatyshkovets6@gmail.com", "123445", "F", "Ukraine");
         Admin admin = new Admin("Oksana", "Tyshkovets", "oksanatyshkovets6@gmail.com", "123445", "F", "Ukraine");
@@ -15,12 +16,12 @@ public class Main  {
     }
 
     public static void method(Object user) throws IOException {
-        if(user instanceof User){
-            ((User) user).write();
+        if(user instanceof Admin){
+            ((Admin) user).removeFile(isContain);
         } else if (user instanceof Support){
-            ((Support)user).checkString(new String("1234"));
-        } else if (user instanceof Admin) {
-            ((Admin) user).removeFile(false);
+           isContain = ((Support)user).checkString("1234");
+        } else if (user instanceof User) {
+            ((User) user).write();
         }
     }
 }
